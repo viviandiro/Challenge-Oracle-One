@@ -1,0 +1,148 @@
+body {
+  background-image: url("images/nuevo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 20px;
+}
+header {
+  margin: 10px 80px;
+}
+.containerPrincipal {
+  display: block;
+  padding: 5px;
+  width: 940px;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-size: 100%;
+  background-color: transparent;
+}
+
+.containerPrincipal div {
+  padding: 50px;
+  width: 320px;
+  height: 400px;
+  margin: 25px;
+  border-radius: 15px;
+  background-size: 100%;
+  background-color: rgb(237, 237, 237);
+  float: left;
+  text-align: center;
+  border: none;
+  border-top-right-radius: 30% 30%;
+}
+.subcontainer1 {
+  box-shadow: inset 8px -8px 25px 7px rgb(38, 33, 55),
+    inset -8px 8px 25px 7px rgb(38, 33, 55);
+}
+.subcontainer2 {
+  box-shadow: inset 10px -15px 25px 7px rgb(38, 33, 55),
+    inset -10px 15px 25px 7px rgb(38, 33, 55);
+}
+
+.form {
+  width: auto;
+  height: 100%;
+}
+.tittle {
+  display: inline;
+  padding: 5px;
+  margin-left: 30px;
+  font-size: 35px;
+  font-family: Elephant;
+  color: #0a3871;
+}
+.mensaje {
+  margin-bottom: 10%;
+  margin-top: 15%;
+  overflow-y: scroll;
+  width: 300px;
+  height: 200px;
+  text-align: left;
+  font-family: Arial-Narrow;
+  font-size: 20px;
+}
+
+.miText {
+  outline: none;
+  background-color: transparent;
+  border: 0;
+  font-family: monospace;
+  font-size: 20px;
+  margin-top: 10%;
+  margin-bottom: 70%;
+  text-transform: lowercase;
+}
+.alerText {
+  font-family: 🇲🇸;
+  opacity: 0.8;
+  color: rgb(55, 49, 141);
+  font-size: 12px;
+}
+
+.btn1 {
+  background-color: white;
+  padding: 12px;
+  border: 0;
+  border-radius: 15px;
+  color: rgb(55, 49, 141);
+  width: 110px;
+  font-size: 12px;
+  margin-top: 5%;
+  border: 1px solid rgb(55, 49, 141);
+}
+.btn2 {
+  background-color: white;
+  padding: 12px;
+  margin-left: 5%;
+  border: 0;
+  border-radius: 15px;
+  color: rgb(55, 49, 141);
+  margin-top: 5%;
+  width: 110px;
+  border: 1px solid rgb(55, 49, 141);
+  font-size: 12px;
+}
+
+.btn3 {
+  background-color: rgb(248, 248, 248);
+  padding: 10px;
+  margin-left: 5%;
+  border: 1px solid rgb(55, 49, 141);
+  border-radius: 15px;
+  transform: translateX(-50%);
+  color: rgb(55, 49, 141);
+  border-style: solid;
+  margin: 10% 50%;
+  width: 110px;
+}
+button:hover {
+  color: rgb(242, 243, 245);
+  background-color: rgb(55, 49, 141);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+img {
+  width: 180px;
+  height: 220px;
+}
+.logo {
+  width: 40px;
+  height: 50px;
+  margin-inline-start: 0;
+  display: inline;
+}
+.icon {
+  width: 30px;
+  height: 20px;
+}
+h2 {
+  font-family: helvetica;
+  font-size: 25px;
+}
+h3 {
+  font-family: helvetica;
+  font-size: 15px;
+}

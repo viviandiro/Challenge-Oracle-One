@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="src/reset.css" rel="stylesheet">
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="src/images/Vector.png" alt="">
+        <h1 class="tittle">ENCRIPTADOR DE TEXTOS</h1>
+        <hr>
+    </header>
+
+    <main class="containerPrincipal">
+
+        <div class="subcontainer1">
+            <form id="form">
+                <input autocomplete="off" onkeypress="return soloText(event)" id="newfrase" class="miText" type="text"
+                    placeholder="Ingresa el texto aqui" />
+                <br><label class="alerText">
+                    <img class="icon" src="src/images/icon.png" alt="">
+
+                    Solo letras minusculas y sin acentos</label>
+                <br>
+                <button type="submit" class="btn1" id="btn1" onclick="encriptar()">Encriptar</button>
+                <button id="btn2" class="btn2">Desencriptar</button>
+            </form>
+        </div>
+
+        <div class="subcontainer2">
+
+            <section ">
+                <img src=" src/images/Muñeco.png" />;
+            <br><br>
+            <h2> Ningun mensaje fue encontrado!!</h2>
+            <br>
+            <h3>Ingresa el texto que desees encriptar o desencriptar</h3>
+            </section>
+            <br>
+            <span id="btncopiar"></span>
+        </div>
+
+    </main>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
