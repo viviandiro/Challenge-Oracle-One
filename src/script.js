@@ -54,7 +54,12 @@ function desencriptar() {
     var miFrase = document.querySelector("section");
     miFrase.innerHTML =
       "<section id=mensaje class=mensaje>" + cadenaDesencritada;
-    console.log(cadenaDesencritada);
+     var miBtncopiar = document.querySelector("#btncopiar");
+     miBtncopiar.innerHTML =
+       "  <br><button class=btn3 onclick= copyMensage()>Copiar</button>";
+
+    
+      console.log(cadenaDesencritada);
     form.reset();
     return false;
   } else {
